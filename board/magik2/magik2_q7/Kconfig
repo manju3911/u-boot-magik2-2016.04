@@ -1,0 +1,15 @@
+if TARGET_MAGIK2
+
+config SYS_BOARD
+	default "magik2_q7"
+
+config SYS_VENDOR
+	default "magik2"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "magik2_q7"
+
+endif

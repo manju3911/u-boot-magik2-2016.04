@@ -1,0 +1,6 @@
+MX6SABRESD BOARD
+M:	Manjunath <manjunath.bheembhat@tessolve.com>
+S:	Maintained
+F:	board/magik2/magik2_q7/
+F:	include/configs/magik2_q7.h
+F:	configs/magik2_qdplus_q7_defconfig
