@@ -811,7 +811,8 @@ static void do_enable_hdmi(struct display_info_t const *dev)
 	struct hdmi_regs *hdmi  = (struct hdmi_regs *)HDMI_ARB_BASE_ADDR;
         u8 reg;
         printf("%s: setup HDMI monitor\n", __func__);
-        reg = readb(&hdmi->phy_conf0);
+        printf("This is a new file");
+	reg = readb(&hdmi->phy_conf0);
         reg |= HDMI_PHY_CONF0_PDZ_MASK;
         writeb(reg, &hdmi->phy_conf0);
 
